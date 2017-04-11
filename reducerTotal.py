@@ -18,7 +18,8 @@ for line in sys.stdin:
         continue
 
     # Name elements of the array 'data_mapped'
-    thisKey, thisSale = data_mapped
+    # Assuming only 1 reducer, so no need for key
+    thisSale = data_mapped
 
     # Add thisSale to running total
     salesTotal += float(thisSale)
