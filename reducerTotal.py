@@ -20,8 +20,10 @@ for line in sys.stdin:
     # Name elements of the array 'data_mapped'
     thisKey, thisSale = data_mapped
 
+    # Add thisSale to running total
     salesTotal += float(thisSale)
 
+    # Add 1 to counter
     counter += 1
 
 # Capture last line to finish the loop 
